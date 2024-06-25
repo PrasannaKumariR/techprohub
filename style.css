@@ -1,0 +1,249 @@
+.menu{
+    height: calc(100% - (110px + 50px)); 
+    display: flex;
+    justify-content: center;
+    background-color:silver;
+    /* height:100px ; */
+    width:100% ;
+    /* border: solid; */
+}
+.menu a{
+    height: 20px;
+    color:black;
+    padding: 14px 30px;
+    text-decoration:none;
+    font-style:italic ;
+    text-align: center;
+    font-weight: bold;
+}
+.head{
+    background-color:purple;
+    height:100px ;
+    width:100% ;
+    display:flex;
+    position: relative;
+    border:2px solid black;
+
+}
+
+.name{
+    margin-top: -40px;
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    justify-content: right;
+    position: absolute;
+    right: 350px;  
+}
+
+.head .logo{
+    float: left;
+}
+
+/* Home Section */
+.home {
+    text-align: center;
+    padding: 20px;
+    background-color: #bd71b6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.name2 p {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.imagea {
+    margin: 20px 0;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #bd71b6;
+    color: black;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #131111;
+    border: solid;
+}
+
+.btn.primary {
+    background-color: purple;
+}
+
+.btn.secondary {
+    background-color: purple;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #bd71b6;
+
+}
+
+.feature {
+    flex: 1 1 calc(25% - 40px);
+    max-width: calc(25% - 40px);
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: solid;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+body{
+    background-color: #bd71b6;
+    margin:10px;
+}
+.about {
+    padding: 20px;
+    background-color: #bd71b6;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.abt img{
+    margin-right: 10px;
+    flex:1;
+
+}
+.about-text {
+    margin-left: 10px ;
+    flex:1;
+}
+
+.container {
+    padding: 20px;
+    margin: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.courses
+{
+    background-color: #bd71b6;
+
+}
+.courses h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.course-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-item {
+    background-color: #f9f9f9;
+    border: 1px solid #111111;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px auto;
+    width: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.course-item h3 {
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: purple;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.login {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: purple;
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.footer{
+    background-color:purple;
+    color:black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height:50px;
+    width:100%;
+    border:2px solid black;
+    font-style: italic;
+}
